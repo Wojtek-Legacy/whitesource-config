@@ -31,7 +31,8 @@
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
-    }
+    },
+    "enableRenovate": true
   },
   "imageSettings": {
     "imageTracing": {
