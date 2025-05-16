@@ -30,7 +30,7 @@
   },
   "remediateSettings": {
     "workflowRules": {
-      "enabled": true
+      "enabled": false
     },
     "enableRenovate": true
   },
