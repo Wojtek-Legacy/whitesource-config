@@ -1,3 +1,8 @@
 {
-  "repoConfigMode": "createOnboardingPR"
+    "repoConfigMode": "noWhitesourceFile",
+    "repoConfigFileName": ".mend",
+    "ignoredRepos": {
+        "exactNames": [ LIST
+        ]
+    }
 }
