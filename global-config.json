@@ -2,7 +2,6 @@
     "repoConfigMode": "noWhitesourceFile",
     "repoConfigFileName": ".mend",
     "ignoredRepos": {
-        "exactNames": [ LIST
-        ]
+        "exactNames": [ LIST ]
     }
 }
