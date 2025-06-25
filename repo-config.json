@@ -1,45 +1,78 @@
 {
-  "scanSettings": {
-    "configMode": "AUTO",
-    "configExternalURL": "",
-    "baseBranches": ["main"]
-  },
-  "scanSettingsSAST": {
-    "enableScan": true,
-    "scanPullRequests": true,
-    "incrementalScan": true,
-    "baseBranches": [],
-    "snippetSize": 10
-  },
-  "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
-    "displayMode": "diff",
-    "useMendCheckNames": true
-  },
-  "checkRunSettingsSAST": {
-    "checkRunConclusionLevel": "failure",
-    "severityThreshold": "high"
-  },
-  "issueSettings": {
-    "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
-  },
-  "issueSettingsSAST": {
-    "minSeverityLevel": "high",
-    "issueType": "repo"
-  },
-  "remediateSettings": {
-    "workflowRules": {
-      "enabled": true
+    "scanSettings": {
+        "configMode": "AUTO",
+        "configExternalURL": "",
+        "baseBranches": [
+            "develop",
+            "main",
+            "master",
+            "release"
+        ],
+        "enableLicenseViolations": true,
+        "enableIaC": true,
+        "enableReachability": true,
+        "exploitability": true
     },
-    "enableRenovate": true
-  },
-  "imageSettings": {
-    "imageTracing": {
-      "enableImageTracingPR": false,
-      "addRepositoryCoordinate": false,
-      "addDockerfilePath": false,
-      "addMendIdentifier": false
-    }
-  }
-}
+    "checkRunSettings": {
+        "vulnerableCheckRunConclusionLevel": "failure",
+        "displayMode": "diff",
+        "strictMode": "warning"
+    },
+    "issueSettings": {
+        "minSeverityLevel": "LOW",
+        "issueType": "DEPENDENCY",
+        "displayLicenseViolations": true
+    },
+    "remediateSettings": {
+        "enableRenovate": true,
+        "extends": [
+            ":enableRenovate",
+            ":rebaseStalePrs",
+            ":semanticCommits",
+            "config:base",
+            "docker:enableMajor",
+            "github>whitesource/merge-confidence:beta",
+            "group:monorepos",
+            "group:recommended",
+            "replacements:all",
+            "workarounds:all"
+        ],
+        "timezone": "UTC",
+        "schedule": [
+            "before 5am every weekday"
+        ],
+        "baseBranches": [
+            "main",
+            "master"
+        ],
+        "dependencyDashboard": true,
+        "dependencyDashboardAutoclose": true,
+        "dependencyDashboardTitle": "Renovate Dashboard 🚧",
+        "dependencyDashboardOSVVulnerabilitySummary": "unresolved",
+        "major": {
+            "dependencyDashboardApproval": true
+        },
+        "packageRules": [
+            {
+                "matchPackagePatterns": [
+                    ".*"
+                ],
+                "dependencyDashboardApproval": true
+            },
+            {
+                "matchUpdateTypes": [
+                    "patch",
+                    "minor"
+                ],
+                "labels": [
+                    "patch release"
+                ]
+            },
+            {
+                "matchDepTypes": [
+                    "devDependencies"
+                ],
+                "matchUpdateTypes": [
+                    "patch",
+                    "minor"
+                ]
