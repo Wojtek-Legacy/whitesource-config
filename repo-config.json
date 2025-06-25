@@ -6,7 +6,8 @@
       "develop",
       "main",
       "master",
-      "release"
+      "release",
+      "development"
     ],
     "enableLicenseViolations": true,
     "enableIaC": true,
