@@ -1,45 +1,57 @@
 {
-  "scanSettings": {
-    "configMode": "AUTO",
-    "configExternalURL": "",
-    "baseBranches": ["main"]
-  },
-  "scanSettingsSAST": {
-    "enableScan": true,
-    "scanPullRequests": true,
-    "incrementalScan": true,
-    "baseBranches": [],
-    "snippetSize": 10
-  },
-  "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
-    "displayMode": "diff",
-    "useMendCheckNames": true
-  },
-  "checkRunSettingsSAST": {
-    "checkRunConclusionLevel": "failure",
-    "severityThreshold": "high"
-  },
-  "issueSettings": {
-    "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
-  },
-  "issueSettingsSAST": {
-    "minSeverityLevel": "high",
-    "issueType": "repo"
-  },
-  "remediateSettings": {
-    "workflowRules": {
-      "enabled": true
+    "scanSettings": {
+        "configMode": "AUTO",
+        "configExternalURL": "",
+        "baseBranches": [
+            "main"
+        ]
     },
-    "enableRenovate": true
-  },
-  "imageSettings": {
-    "imageTracing": {
-      "enableImageTracingPR": false,
-      "addRepositoryCoordinate": false,
-      "addDockerfilePath": false,
-      "addMendIdentifier": false
-    }
-  }
+    "scanSettingsSAST": {
+        "enableScan": true,
+        "scanPullRequests": true,
+        "incrementalScan": true,
+        "baseBranches": [],
+        "snippetSize": 10
+    },
+    "checkRunSettings": {
+        "vulnerableCheckRunConclusionLevel": "failure",
+        "displayMode": "diff",
+        "useMendCheckNames": true
+    },
+    "checkRunSettingsSAST": {
+        "checkRunConclusionLevel": "failure",
+        "severityThreshold": "high"
+    },
+    "issueSettings": {
+        "minSeverityLevel": "LOW",
+        "issueType": "DEPENDENCY"
+    },
+    "issueSettingsSAST": {
+        "minSeverityLevel": "high",
+        "issueType": "repo"
+    },
+    "remediateSettings": {
+        "workflowRules": {
+            "enabled": true
+        },
+        "enableRenovate": true
+    },
+    "imageSettings": {
+        "imageTracing": {
+            "enableImageTracingPR": false,
+            "addRepositoryCoordinate": false,
+            "addDockerfilePath": false,
+            "addMendIdentifier": false
+        }
+    },
+    "hostRules": [
+        {
+            "matchHost": "docker.io",
+            "hostType": "docker",
+            "userName": "testwojtek",
+            "encrypted": {
+                "password": "wcBMA8xOaBJvzJNbAQgAjmisMKS2Vlp7f4yYFo02e/LTfVQlwnG4YDu+UGPb/dStm9Tff4/nKkZG3akDtr3I3wQNKMKCDGWaVdHB+95uTAyiC3okabZ0xZQXscc4RWJ2eVKppRZIG3WkiWNrpsTg7PIk2kxVjra6sgSspJqNumgX1QStzjrUxEsNOEUZeOTNOZcrjTHnrwosg7wf1fgJZSuKdJy2QIOJucga5oTw58nMFJ00z/BHon/oDS3Ta5DtJcvbbU00AYm9xI5dWlYw5Ov7Ovjlso+I2JigewTBglJYA+BU87mLg3krLoZLur8vcQrt+jb+w6sT4kBhwVS4EZWce3atovfyny0HMbtwNNJmATZAO0QBSsrP4YjP9JjUqOQSUpanIcwpQC0xoaXgEd7otzmPQTEAeuVqj+4jdyQbY1mZznONtLoBd4bwox9A6zkzOsK0QNu4Uu1HgwWaDJzEtSmdlGRlVTwH2/3a6MUtjo4n/Cdi"
+            }
+        }
+    ]
 }
