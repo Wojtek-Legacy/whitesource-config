@@ -1,53 +1,54 @@
 {
-  "scanSettings": {
-    "configMode": "AUTO",
-    "configExternalURL": "",
-    "baseBranches": ["main"]
-  },
-  "scanSettingsSAST": {
-    "enableScan": true,
-    "scanPullRequests": true,
-    "incrementalScan": true,
-    "baseBranches": [],
-    "snippetSize": 10
-  },
-  "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
-    "displayMode": "diff",
-    "useMendCheckNames": true
-  },
-  "checkRunSettingsSAST": {
-    "checkRunConclusionLevel": "failure",
-    "severityThreshold": "high"
-  },
-  "issueSettings": {
-    "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
-  },
-  "issueSettingsSAST": {
-    "minSeverityLevel": "high",
-    "issueType": "repo"
-  },
-  "remediateSettings": {
-    "workflowRules": {
-      "enabled": true
+    "scanSettings": {
+      "configMode": "AUTO",
+      "configExternalURL": "",
+      "baseBranches": ["main"]
     },
-    "enableRenovate": true
-  },
-  "imageSettings": {
-    "imageTracing": {
-      "enableImageTracingPR": false,
-      "addRepositoryCoordinate": false,
-      "addDockerfilePath": false,
-      "addMendIdentifier": false
+    "scanSettingsSAST": {
+      "enableScan": true,
+      "scanPullRequests": true,
+      "incrementalScan": true,
+      "baseBranches": [],
+      "snippetSize": 10
+    },
+    "checkRunSettings": {
+      "vulnerableCheckRunConclusionLevel": "failure",
+      "displayMode": "diff",
+      "useMendCheckNames": true
+    },
+    "checkRunSettingsSAST": {
+      "checkRunConclusionLevel": "failure",
+      "severityThreshold": "high"
+    },
+    "issueSettings": {
+      "minSeverityLevel": "LOW",
+      "issueType": "DEPENDENCY"
+    },
+    "issueSettingsSAST": {
+      "minSeverityLevel": "high",
+      "issueType": "repo"
+    },
+    "remediateSettings": {
+      "workflowRules": {
+        "enabled": true
+      },
+      "enableRenovate": true
+    },
+    "imageSettings": {
+      "imageTracing": {
+        "enableImageTracingPR": false,
+        "addRepositoryCoordinate": false,
+        "addDockerfilePath": false,
+        "addMendIdentifier": false
+      }
+    },
+    "hostRules": [
+    {
+      "hostType": "npm",
+      "matchHost": "npm.pkg.github.com",
+      "userName": "wojtek-legacy",
+      "password": "wcBMA8xOaBJvzJNbAQf+IJOh2/wsPyniL0JlgdfASJ7omzDK5ozInKDnedlmYVQ0i+tc7T6XrEd8q31vRDE70i739IRjRIeXO7AiQsgNjEcP9WmfaGDbVweGXYlkMBrXeKCQgPfeFe9Kfch9uX8AvAGH1pSbfF6r9WUMPzxkd2lEZ5lIdZKEW7pWT965d2Vrk9VyNjoejRNmTTiMkxeXezRFb9LeIs+DblQx6hrYpIYWhwjYsBiPNOqipfpIVfghFWbXkDKJzkO88vaTAi2dxUy3Sh1mGdYo6VjxthUvedgqIP9PyGy1MYparQfuWdQt8dZqEU4ZyoLyBB3I8+VxBf3TOYF7o9XJmqLWoEYcVtJ8Affa7dA6OanMwW1SWWBy4RdI5oRUmHFpZUBCdU3lqvf6X66KWJ8cbjdD4ez/1xBkSdIbD3rTzobS4pxjbsMkLMzc9wBsG+1yR/p5/PEpMrw+DAonW7+gV5ItYkzlICJJMu2jOn1IlsYN6ho8qon8hfWyvqaAghZiJQN+dg"
     }
-  },
-  "hostRules": [
-  {
-    "hostType": "npm",
-    "matchHost": "npm.pkg.github.com",
-    "userName": "Wojtek-Legacy",
-    "password": "wcBMA8xOaBJvzJNbAQf+IJOh2/wsPyniL0JlgdfASJ7omzDK5ozInKDnedlmYVQ0i+tc7T6XrEd8q31vRDE70i739IRjRIeXO7AiQsgNjEcP9WmfaGDbVweGXYlkMBrXeKCQgPfeFe9Kfch9uX8AvAGH1pSbfF6r9WUMPzxkd2lEZ5lIdZKEW7pWT965d2Vrk9VyNjoejRNmTTiMkxeXezRFb9LeIs+DblQx6hrYpIYWhwjYsBiPNOqipfpIVfghFWbXkDKJzkO88vaTAi2dxUy3Sh1mGdYo6VjxthUvedgqIP9PyGy1MYparQfuWdQt8dZqEU4ZyoLyBB3I8+VxBf3TOYF7o9XJmqLWoEYcVtJ8Affa7dA6OanMwW1SWWBy4RdI5oRUmHFpZUBCdU3lqvf6X66KWJ8cbjdD4ez/1xBkSdIbD3rTzobS4pxjbsMkLMzc9wBsG+1yR/p5/PEpMrw+DAonW7+gV5ItYkzlICJJMu2jOn1IlsYN6ho8qon8hfWyvqaAghZiJQN+dg"
+  ]
   }
-]
-}
+  
