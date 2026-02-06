@@ -48,7 +48,12 @@
       "matchHost": "npm.pkg.github.com",
       "userName": "wojtek-legacy",
       "password": "wcBMA8xOaBJvzJNbAQf+IJOh2/wsPyniL0JlgdfASJ7omzDK5ozInKDnedlmYVQ0i+tc7T6XrEd8q31vRDE70i739IRjRIeXO7AiQsgNjEcP9WmfaGDbVweGXYlkMBrXeKCQgPfeFe9Kfch9uX8AvAGH1pSbfF6r9WUMPzxkd2lEZ5lIdZKEW7pWT965d2Vrk9VyNjoejRNmTTiMkxeXezRFb9LeIs+DblQx6hrYpIYWhwjYsBiPNOqipfpIVfghFWbXkDKJzkO88vaTAi2dxUy3Sh1mGdYo6VjxthUvedgqIP9PyGy1MYparQfuWdQt8dZqEU4ZyoLyBB3I8+VxBf3TOYF7o9XJmqLWoEYcVtJ8Affa7dA6OanMwW1SWWBy4RdI5oRUmHFpZUBCdU3lqvf6X66KWJ8cbjdD4ez/1xBkSdIbD3rTzobS4pxjbsMkLMzc9wBsG+1yR/p5/PEpMrw+DAonW7+gV5ItYkzlICJJMu2jOn1IlsYN6ho8qon8hfWyvqaAghZiJQN+dg"
+    },
+  {
+      "hostType": "nuget",
+      "matchHost": "pkgs.dev.azure.com",
+      "username": "wojtek-legacy",
+      "password": "wcBMA8xOaBJvzJNbAQf/UsQrTymzlu2NOGaPavrAsCOyJq7e+/7Z21teiCq6rbAsCtQGAZXzqGNiaJ1kL4OMjYY56Rl7uiRj3V6tjhlIFu39kxmqveh+TlXbv+H8xsLSS83j6ohO/2R0JAsjDb5xzPOGz6BaXQMHFss/6fY6nX4WYhv0WqZRGZhz2hoExXnVeGpelmNw+o9oDCCjcSpPbS3adWh69vhht/h/pwyJQt4AWq2/kSfbnMFCSFyyBIimiAKpaUKCRDHGWSblVtUF07M+hobu0mzlAQaT5sTXhGXAPlJZ44w/vFoVPwp0pHwZ7pwfbWoN5K/Y3/3W25L78etzoJbICVtqYNnb8JayMNKoART9PtYbvraTX33mN/qo7PFdV6tgzP46U5+EaDFP+u29jbIJTQN1GzeYNtDHJBAwDZF/MsYJ240+aVEmCCiWUOVMTXok8+/mAEesnr7NZlTa0KpKdSiqJHeiGzTym1PWxdK+UsAEN21g/kdbPQOlzFQfhn8ZPBiASuaxKcwAC9FLOBYfeg9adkIgwy7QLcROy0d/ahfgvBuTxxuwiGiStddvnMIF/6mw"
     }
   ]
-  }
-  
+}
