@@ -51,7 +51,7 @@
         },
         {
           "hostType": "nuget",
-          "matchHost": "https://pkgs.dev.azure.com/mendOrg/_packaging/mend-private-nuget/nuget/v3/index.json",
+          "matchHost": "https://pkgs.dev.azure.com/mendOrg/_packaging/mend-private-nugeT/nuget/v3/index.json",
           "userName": "wojtek-legacy",
           "encrypted": {
             "token": "wcBMA8xOaBJvzJNbAQf/emtqIGE16BLtohKvi7LtqI1s14ngohhX+G3ReuX5X7VDrMwY+3jyqRhRc6KnHPt1gUvptPB/JiUceocmZy+tz2i3ND/UJ/sTQP3jp2ztPVJA2SpjRcTjQozVQ9/ikVOKd/ZRK25iVMv0P/SINC6mPGN73Lq1xB343ZvgEW2D8p81DKyhZouVW5XH2Gb2Ppn2t/zI6z4hr0fXIXCyHeil1vV/zJO1Jbfq8PWo7iogs4+kuG+5z4naBTnybMUXqN5sJDaDOYfeMe6GHMvE2eE/9XTDO0fOr23Xf3ieER8sqS/SeGKEXHjtHYAc2RTOnJ/U5LQzbTFgEGnbcSXJgL6sVNKoATYESVWV8mheo/BIqSX9UnyzIHtI75a/2HbRJA6iyF/6QHIEdXsop5DxLzO8hHHucuwU8Vk5AitC5WCO/kD+rMfb5uw8nTaUUkLq6yk+n2I6OJHRpV3FIUdzMXs+6qdKLI78bmy1PihHkpXLULjSAtaya2kMyCi+KIlHumrMy0DggzcIEcN1UZcm5vblKGGdNoz7lyK6+i/KPna6FdASEHa//CmBQ6Es"
