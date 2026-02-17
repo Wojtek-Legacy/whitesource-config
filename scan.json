@@ -1,0 +1,10 @@
+{
+  "repositories": [
+    {
+      "fullName": "Wojtek-Legacy/test",
+      "branchName": "main",
+      "uploadScannerLogs": true
+    }
+  ]
+}
+
