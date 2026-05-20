@@ -32,13 +32,13 @@
   },
   "remediateSettings": {
     "workflowRules": {
-      "enabled": true
-    },
-    "enableRenovate": true,
-  "baseBranches": [
-    "develop" 
-    ]
+    "enabled": true
   },
+  "enableRenovate": true,
+  "baseBranchPatterns": [
+    "develop"
+  ]
+},
   "imageSettings": {
     "imageTracing": {
       "enableImageTracingPR": false,
