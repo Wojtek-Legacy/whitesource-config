@@ -34,10 +34,7 @@
     "workflowRules": {
     "enabled": true
   },
-  "enableRenovate": true,
-  "baseBranchPatterns": [
-    "develop"
-  ]
+  "enableRenovate": true
 },
   "imageSettings": {
     "imageTracing": {
