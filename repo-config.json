@@ -1,5 +1,5 @@
 {
-  "overrideConfigAllowList": [],
+  "overrideConfigAllowList": ["Wojtek-Legacy/00167974"],
   "scanSettings": {
     "configMode": "LOCAL",
     "baseBranches": [],
