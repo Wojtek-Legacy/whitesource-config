@@ -2,7 +2,7 @@
   "overrideConfigAllowList": [],
   "scanSettings": {
     "configMode": "LOCAL",
-    "baseBranches": [],
+    "baseBranches": ["main"],
     "exploitability": true,
     "versioning": {
       "python": "3.12"
